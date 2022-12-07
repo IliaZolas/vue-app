@@ -3,5 +3,5 @@
 </script>
 
 <template>
-Home
+Home - I am playing around with vue
 </template>
