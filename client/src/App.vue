@@ -1,6 +1,5 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
@@ -8,11 +7,15 @@ import HelloWorld from './components/HelloWorld.vue'
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!!" />
+      <div>
+        <h1>Ramen Cookbook with Vue</h1>
+      </div>
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/ramen">Ramens</RouterLink>
+        <RouterLink to="/new-ramen">Add Ramen</RouterLink>
+        <RouterLink to="/ramen/update/:id">Update Ramen</RouterLink>
       </nav>
     </div>
   </header>
